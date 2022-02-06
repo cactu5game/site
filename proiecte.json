@@ -1,0 +1,16 @@
+{
+    "proiecte":[
+        {
+            "nume": "Background Generator",
+            "descriere":"O pagina pentru a vizualiza un background.",
+            "imagine": "./img/BGG.png",
+            "link": "./proiecte/bg-generator/index.html"
+        },
+        {
+            "nume": "Pixel Art",
+            "descriere":"O pagina pentru a a crea propria ta imagine folosind patrate.",
+            "imagine": "./img/PA.png",
+            "link": "./proiecte/pixel art/index.html"
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+`<!DOCTYPE html>
 
 <html>
 
@@ -112,7 +112,11 @@
                 .then(function(data) {
                     if(data.exists()) {
                         const listaProiecte = data.val();
-                        console.log(listaProiecte);                   
+                        
+                        // Pentru fiecare proiect din lista folosim functia generateCard
+                        listaProiecte.forEach(function(proiect) {
+                            generateCard(proiect);
+                        })
                     }else {
                         console.log('noData');
                     }
